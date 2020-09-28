@@ -52,9 +52,10 @@ function customerProduct(inventory) {
             }
             else {
                 console.log("\n");
-                console.log("***");
+                console.log("*************************************************************");
                 console.log("That item is out of stock.");
-                console.log("***");
+                console.log("*************************************************************");
+                console.log("\n");
 
                 productDisplay();
             }
@@ -80,9 +81,10 @@ function customerQuantity(product) {
             // If the stock quantity is lower than the customerQuantity then it lets the user know.
             if (quantity > product.stock_quantity) {
                 console.log("\n");
-                console.log("***");
+                console.log("*************************************************************");
                 console.log("Not enough " + product.product_name + "s in stock.");
-                console.log("***");
+                console.log("*************************************************************");
+                console.log("\n");
 
                 productDisplay();
             }
@@ -100,9 +102,10 @@ function buyProduct(product, quantity) {
         [quantity, product.item_id],
         function (err, res) {
             console.log("\n");
-            console.log("***");
+            console.log("*************************************************************");
             console.log("You've bought " + quantity + " " + product.product_name + "s.");
-            console.log("***");
+            console.log("*************************************************************");
+            console.log("\n");
             productDisplay();
         }
     );
