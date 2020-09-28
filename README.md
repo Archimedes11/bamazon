@@ -23,4 +23,11 @@ The user must start the node application.
 E-mail: adamkwolff@hotmail.com
 
 ## **PICTURES**
-![Image of Yaktocat](Photos/Success.png)
+###  <font color='green'>SUCCESS</font>
+![Success](./Success.png)
+### <font color='yellow'>OVERBOUGHT</font>
+![Overbought](./Overbought.png)
+### <font color='red'>QUIT</font>
+![Quit](./Quit.png)
+###  <font color='tan'>MySQLWorkbench</font>
+![MySQLWorkbench](./Workbench.png)
