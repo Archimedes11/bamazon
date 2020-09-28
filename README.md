@@ -21,3 +21,6 @@ The user must start the node application.
 
 ## **CONTACT**
 E-mail: adamkwolff@hotmail.com
+
+## **PICTURES**
+![Image of Yaktocat](Photos/Success.png)
